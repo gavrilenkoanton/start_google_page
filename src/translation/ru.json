@@ -1,0 +1,28 @@
+{
+  "test": "ТЕСТ",
+  "mail": "Почта",
+  "images": "Картинки",
+  "imagesMob": "КАРТИНКИ",
+
+  "availableLang": "Сервисы Google доступны на разных языках:",
+  "currentLang": "Беларуская",
+  "search": "Поиск в Google",
+  "lucky": "Мне повезёт!",
+
+  "advertising": "Реклама",
+  "business": "Для бизнеса",
+  "aboutGoogle": "Всё о Google",
+  "howSearchWork": "Как работает Google Поиск",
+  "privacy": "Конфиденциальность",
+  "conditions": "Условия",
+  "settings": "Настройки",
+  "unknown": "Неизвестно",
+  "useMyLocation": " -Учитывать мое местоположение",
+
+  "searchSettings": "Настройки поиска",
+  "searchExtension": "Расширенный поиск",
+  "yourSearchData": "Ваши данные в поиске",
+  "history": "История",
+  "referenceSearch": "Поиск в справке",
+  "feedBack": "Отправить отзыв"
+}

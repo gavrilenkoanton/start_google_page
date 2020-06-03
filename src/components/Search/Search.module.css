@@ -1,0 +1,247 @@
+.main {
+  height: 450px;
+  width: 100vw;
+  position: absolute;
+  top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logoBar {
+  height: 258px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoBar img {
+  margin: 109px 0 0 0;
+  /*border: 1px solid;*/
+  height: 92px;
+  width: 272px;
+  background-size: cover;
+}
+.searchBlock {
+  height: 140px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.searchBlockMob {
+  display: none;
+}
+
+.searchInput {
+
+}
+
+.keyboard {
+  height: 20px;
+  width: 20px;
+}
+
+.micro {
+  height: 24px;
+  width: 24px;
+}
+.searchBar {
+  width: 584px;
+  height: 44px;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchBar:hover {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28)
+}
+
+.searchIcon {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  left: 14px;
+  color: rgb(154, 160, 166);
+  cursor: default;
+}
+
+.searchIconMob {
+  display: none;
+}
+
+.keyboardIcon {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  right: 45px;
+  color: rgb(154, 160, 166);
+  cursor: pointer;
+}
+.keyboardIcon:hover .keyboardIconDescription {
+  display: flex;
+}
+
+.keyboardIconDescription {
+  position: absolute;
+  top: 40px;
+  left: -53px;
+  width: 130px;
+  height: 30px;
+  border: 1px solid;
+  font-size: 10px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  background-color: #222222;
+  color: white;
+  display: none;
+}
+.keyboardIconDescription::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  display: block;
+  background: #222222;
+  transform: rotate(45deg);
+  position: absolute;
+  top: -4px;
+}
+
+.micIcon {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  right: 10px;
+  color: #4285f4;
+  cursor: pointer;
+}
+
+.micIcon:hover .micIconDescription {
+  display: flex;
+}
+
+.micIconDescription {
+  position: absolute;
+  top: 40px;
+  left: -53px;
+  width: 130px;
+  height: 30px;
+  border: 1px solid;
+  font-size: 10px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  background-color: #222222;
+  color: white;
+  display: none;
+}
+
+.micIconDescription::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  display: block;
+  background: #222222;
+  transform: rotate(45deg);
+  position: absolute;
+  top: -4px;
+}
+
+.buttons {
+  margin: 0 0 30px 0;
+}
+
+.searchButton {
+  margin: 4px;
+  height: 34px;
+  width: 132px;
+  padding: 0 16px 0 16px;
+  border-radius: 4px;
+  border: 1px solid #f2f2f2;
+  color: #5F6368;
+}
+
+.searchButton:hover {
+  border: 1px solid #c6c6c6;
+  color: #222;
+  background-color: #f8f8f8;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+}
+
+.iGuessButton {
+  margin: 4px;
+  height: 34px;
+  width: 117px;
+  padding: 0 16px 0 16px;
+  border-radius: 4px;
+  border: 1px solid #f2f2f2;
+  color: #5F6368;
+}
+
+.iGuessButton:hover {
+  border: 1px solid #c6c6c6;
+  color: #222;
+  background-color: #f8f8f8;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+}
+
+.regionInfo {
+  height: 52px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.langSwitcher {
+  color: blue;
+}
+
+.langSwitcher:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 820px) {
+  .searchBar {
+    width: 90%;
+  }
+
+  .searchBar {
+    display: none;
+  }
+
+  .searchBlock {
+    display: none;
+  }
+
+  .searchBlockMob {
+    display: flex;
+    justify-content: center;
+  }
+
+  .regionInfo {
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .logoBar img {
+    width: 160px;
+    height: 56px;
+    margin-bottom: 40px;
+  }
+
+  .main {
+    height: 200px;
+  }
+}

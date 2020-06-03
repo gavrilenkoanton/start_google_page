@@ -1,0 +1,29 @@
+{
+  "test": "ТЭСТ",
+  "mail": "Gmail",
+  "images": "Відарысы",
+  "imagesMob": "ВIДАРЫСЫ",
+
+
+  "availableLang": "Даступная мова:",
+  "currentLang": "Русский",
+  "search": "Пошук Google",
+  "lucky": "Мне пашанцуе",
+
+  "advertising": "Рэклама",
+  "business": "Бiзнес",
+  "aboutGoogle": "Аб Google",
+  "howSearchWork": "Як працуе Пошук",
+  "privacy": "Прыватнасць",
+  "conditions": "Умовы",
+  "settings": "Налады",
+  "unknown": "Невядома",
+  "useMyLocation": " -Улічваць маё месцазнаходжанне",
+
+  "searchSettings": "Налады пошуку",
+  "searchExtension": "Пашыраны пошук",
+  "yourSearchData": "Ваши данныя ў Пошуку",
+  "history": "Гісторыя",
+  "referenceSearch": "Даведка да пошуку",
+  "feedBack": "Адправіць водгук"
+}
