@@ -1,0 +1,50 @@
+.mobileSearch {
+    height: 100vh;
+    width: 100vw;
+    z-index: 10001;
+    position: absolute;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+.inputBlock {
+    width: 98%;
+    height: 46px;
+    border-bottom: 1px solid;
+    border-color: lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    position: absolute;
+    left: 55px;
+    width: calc(100% - 137px);
+    height: 45px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.backItem {
+    position: absolute;
+    left: 17px;
+    height: 24px;
+    width: 24px;
+    color: #3b78e6;
+}
+
+.closeIcon {
+    position: absolute;
+    right: 55px;
+    color: grey;
+}
+.closeIconHide{
+    display: none;
+}
+.searchIcon {
+    color: #3b78e6;
+    position: absolute;
+    right: 17px;
+}

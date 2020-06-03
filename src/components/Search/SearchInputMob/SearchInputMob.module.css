@@ -1,0 +1,64 @@
+.searchBar {
+    width: 80%;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.searchIconMob{
+    display: block;
+    position: absolute;
+    right: 10px;
+    color: white;
+    z-index: 6;
+}
+.searchIconMob::after{
+    width: 44px;
+    height: 42px;
+    border: 1px solid #3367d6;
+    background: #3b78e7;
+    content: '';
+    position: absolute;
+    right: -11px;
+    top: -9px;
+    border-radius: 0 24px 24px 0;
+    z-index: -1;
+}
+
+/*.searchInput {*/
+/*    border: none;*/
+/*    outline: none;*/
+/*    width: 70%;*/
+/*    height: 34px;*/
+/*    position: absolute;*/
+/*    left: 30px;*/
+/*    top: 4px;*/
+/*    font-family: Arial, sans-serif;*/
+/*    font-size: 16px;*/
+/*    background: #4683ea;*/
+/*}*/
+
+/*.clearIcon {*/
+/*    position: absolute;*/
+/*    right: 85px;*/
+/*    color: #80868b;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.clearIcon::after{*/
+/*    content: '';*/
+/*    width: 1px;*/
+/*    height: 25px;*/
+/*    border-right: 1px solid #dfe1e5;*/
+/*    position: absolute;*/
+/*    right: -5px;*/
+/*}*/
+
+/*@media screen and (max-width: 820px) {*/
+/*    .searchInput {*/
+/*        width: 62%;*/
+/*    }*/
+/*}*/
