@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/start_google_page/static/css/main.9a255ba5.chunk.css",
+    "main.css": "/start_google_page/static/css/main.a65cbb26.chunk.css",
     "main.js": "/start_google_page/static/js/main.5bc3933f.chunk.js",
     "main.js.map": "/start_google_page/static/js/main.5bc3933f.chunk.js.map",
     "runtime-main.js": "/start_google_page/static/js/runtime-main.c9ff520d.js",
@@ -8,9 +8,9 @@
     "static/js/2.69bc59d8.chunk.js": "/start_google_page/static/js/2.69bc59d8.chunk.js",
     "static/js/2.69bc59d8.chunk.js.map": "/start_google_page/static/js/2.69bc59d8.chunk.js.map",
     "index.html": "/start_google_page/index.html",
-    "precache-manifest.c72ce50bafb13b20100c47f96628f8fa.js": "/start_google_page/precache-manifest.c72ce50bafb13b20100c47f96628f8fa.js",
+    "precache-manifest.74da441ac865c9a391f3017ba0e111b8.js": "/start_google_page/precache-manifest.74da441ac865c9a391f3017ba0e111b8.js",
     "service-worker.js": "/start_google_page/service-worker.js",
-    "static/css/main.9a255ba5.chunk.css.map": "/start_google_page/static/css/main.9a255ba5.chunk.css.map",
+    "static/css/main.a65cbb26.chunk.css.map": "/start_google_page/static/css/main.a65cbb26.chunk.css.map",
     "static/js/2.69bc59d8.chunk.js.LICENSE.txt": "/start_google_page/static/js/2.69bc59d8.chunk.js.LICENSE.txt",
     "static/media/chrome.svg": "/start_google_page/static/media/chrome.22673265.svg",
     "static/media/gmail.svg": "/start_google_page/static/media/gmail.c4cb17e1.svg",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.c9ff520d.js",
     "static/js/2.69bc59d8.chunk.js",
-    "static/css/main.9a255ba5.chunk.css",
+    "static/css/main.a65cbb26.chunk.css",
     "static/js/main.5bc3933f.chunk.js"
   ]
 }
